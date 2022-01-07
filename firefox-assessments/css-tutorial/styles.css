@@ -1,4 +1,22 @@
 h1 {
     color: red;
   }
+li {
+    list-style-type: none;
+  }
+.special {
+    color: orange;
+    font-weight: bold;
+  }
+li em {
+    color: rebeccapurple;
+  }
+h1 + p {
+    font-size: 200%;
+  }
+body h1 + p .special {
+    color: rgb(23, 194, 51);
+    background-color: black;
+    padding: 5px;
+  }
   
