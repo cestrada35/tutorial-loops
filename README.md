@@ -1,2 +1,2 @@
 # tutorial-loops
-A repository containing practice assessments of my learning modules
+A repository containing practice assignments/assessments of MDN learning modules
