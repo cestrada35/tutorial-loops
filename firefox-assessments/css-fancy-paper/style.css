@@ -39,3 +39,49 @@
   }
   
   /* Your CSS below here */
+
+  /*top image*/
+  .img-gradient1 {
+    position:absolute;
+  }
+  .img-gradient1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0%;
+    width: 100%; height: 140%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0));
+  }
+
+  /*bottom image*/
+  .img-gradient2 img{
+    position:absolute;
+    bottom: 0;
+  }
+  .img-gradient2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%; height:20%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3));
+  }
+
+  /*full page settings*/
+  article{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+  }
+
+  /*top and bottom borders*/
+  .img-gradient1 img{
+    border-top: 1mm solid hotpink;
+  }
+  .img-gradient2 img{
+    border-bottom: 1mm solid hotpink;
+  }
+
+  /*logo*/
+  h1{
+      background-image: url("logo.png");
+      filter: drop-shadow(10px 10px 4px #000000);
+  }
