@@ -43,12 +43,18 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
-  @font-face {
-      font-family: "Supermercado One";
-      src: local("/SupermercadoOne-Regular.ttf") format("truetype");
+  
+  * {
+    font-size: 10px;
+    font-family:sans-serif;
   }
-  p {
-      font-family:  "Supermercado One";
-      /* color: white; */
-      font-weight: bold;
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2{
+      font-size: 2rem;
+  }
+  nav ul li a{
+      font-size: 1.5rem;
   }
