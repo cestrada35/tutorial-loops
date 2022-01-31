@@ -5,9 +5,18 @@ html {
   /* Your CSS below here */
 
 body p {
+      
       width:    200px;
-      height:   50px;
-      position: absolute;
-      border:   2mm solid rgb(255, 0, 221) ;
+      height:   30px;
+      background: red linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0.2) 30%);
+      text-align: center;
+      padding-top: 10px;
+      font-size: 1.125rem;
+      /* rem given that ffbrowser default font is 16px */
+      /*18px = 1.125 * 16px ie: 1.125 rems for 18px font*/
+      color: red;
+      text-shadow: 2px 2px 4px #000000;
+      border:   1px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px black;
   }
-
