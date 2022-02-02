@@ -71,6 +71,28 @@
     text-indent: 20px;  
   }
 
-  a:link, a:visited, a:hover{
+  a:link, a:visited, a:hover {
       color: #a66;
+  }
+  a:hover {
+      text-decoration-line: none;
+  }
+  nav ul a{
+    text-decoration: none;
+  }
+  a:active {
+    color: black;
+  }
+  body{
+    line-height: 1.25rem;
+  }
+  ol, ul{
+    list-style: square;
+  }
+  nav ul li{
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border: 5px #a66 solid;
   }
