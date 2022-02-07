@@ -15,7 +15,7 @@
     border: 1px solid black;
   }
   .positioned {
-    position: relative;
+    position: absolute;
     top: 30px;
     left: 30px;
     background: yellow;
