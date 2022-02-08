@@ -18,11 +18,7 @@ body {
     background-color: rgb(79,185,227);
     padding: 10px;
     color: #fff;
-  }
-  .special::after {
-    content: "";
-    clear: both;
-    display: block;
+    display: flow-root;
   }
   
   
