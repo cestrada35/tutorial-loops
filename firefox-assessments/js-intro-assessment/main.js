@@ -34,11 +34,11 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replace('Bob', name);
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
+    const weight = Math.round(300/14) + ' Stone';
     const temperature =  Math.round(94);
 
   }
