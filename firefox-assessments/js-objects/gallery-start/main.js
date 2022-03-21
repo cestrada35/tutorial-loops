@@ -19,3 +19,13 @@ for (let i = 0; i < picArray.length; i++){
 }
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', e => {
+  let state = e.target.getAttribute('class');
+  if (state = 'dark'){
+    e.target.setAttribute('class', 'light');
+    //finish dis
+  }else{ //light
+  e.target = 'dark';//change to set attribute
+  }
+  console.log(state);
+});''
