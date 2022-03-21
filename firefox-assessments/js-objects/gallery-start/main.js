@@ -5,6 +5,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
+const picArray = ['pic1.jpg','pic2.jpg','pic4.jpg','pic4.jpg','pic5.jpg']
 
 /* Looping through images */
 
